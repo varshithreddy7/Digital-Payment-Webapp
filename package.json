@@ -1,0 +1,44 @@
+{
+  "name": "paytm-clone",
+  "version": "1.0.0",
+  "description": "A full-stack MERN payment application with secure authentication, money transfers, and modern UI. Built with React, Node.js, Express, and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "mongodb",
+    "payments-app",
+    "mern-stack",
+    "jwt-authentication",
+    "tailwind-css",
+    "express",
+    "mongoose",
+    "digital-wallet"
+  ],
+  "author": {
+    "name": "Varshith Reddy",
+    "email": "varshith355@gmail.com",
+    "url": "https://github.com/varshithreddy"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varshithreddy/paytm-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/varshithreddy/paytm-clone/issues"
+  },
+  "homepage": "https://github.com/varshithreddy/paytm-clone#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
